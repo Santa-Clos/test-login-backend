@@ -1,0 +1,16 @@
+
+### Buscar pokemon
+GET http://localhost:3000/pokemon/ditto
+
+### Crear pokemon
+POST http://localhost:3000/pokemon
+Content-Type: application/json
+
+
+{
+    "name": "charmander",
+    "type": "fire",
+    "moves": [
+        "fireball"
+    ]
+}
