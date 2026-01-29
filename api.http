@@ -25,6 +25,13 @@ Content-Type: application/json
     ]
 }
 
+### Eliminar una pelicula con id: id
+DELETE http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+
+### Devolver la pelicula recien eliminada
+
+GET http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+
 ### Actualizar una película con PATCH
 PATCH http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
 Content-Type: application/json
